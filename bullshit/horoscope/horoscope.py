@@ -96,7 +96,7 @@ def date_prediction_s(mood, dirty):
     elif r <= 0.8:
         s = "Interesting things await you on %s %s" % (month, day)
     else:
-        s = "The events of %s %s have the potential to change your life." % (month, day)
+        s = "The events of %s %s have the potential to change your stats." % (month, day)
 
     return sentence_case(s)
 
@@ -126,7 +126,7 @@ def positive_intensifier(dirty):
 
     if r <= (0.5 / dirty_factor):
         verb = random.choice(["say", "do"])
-        return ", and there's nothing anyone can %s to stop you" % verb
+        return ", and there's nothing anyone can %s to change it" % verb
     elif r <= (0.95 / dirty_factor):
         return ", and you don't care who knows it"
     else:
@@ -141,7 +141,7 @@ def consolation(dirty):
         when = random.choice(["shortly", "soon", "in due time"])
         return ", but don't worry, everything will improve %s" % when
     elif r <= 0.9:
-        return ", perhaps you need a change in your life?"
+        return ", perhaps you need a change in your uptime?"
     else:
         return "..."
 
