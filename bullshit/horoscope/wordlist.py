@@ -73,7 +73,7 @@ good_emotive_adjs = ["cathartic", "healing", "mystical"]
 bad_emotive_adjs = ["anti-climactic"]
 
 # Intensifiers for use in front of feeling adjectives
-good_degrees = ["ridiculously", "amazingly"]
+good_degrees = ["ridiculously", "surprisingly"]
 neutral_degrees = ["a little bit", "fairly", "pretty", "curiously"]
 bad_degrees = ["worringly", "distressingly"]
 
@@ -181,38 +181,42 @@ locations = [
 ]
 
 # Types of discussions
-neutral_discussions = ["discussion",
-                       "talk",
-                       "conversation",
-                       "debate"
-                       ]
+neutral_discussions = [
+    "discussion",
+    "talk",
+    "conversation",
+    "debate"
+]
 
-good_discussions = ["chat",
-                    "intimate conversation",
-                    "chin wag"
-                    ]
+good_discussions = [
+    "chat",
+    "intimate conversation",
+    "chin wag"
+]
 
-bad_discussions = ["argument",
-                   "fight",
-                   "altercation",
-                   "terse chat",
-                   "misunderstanding"
-                   ]
+bad_discussions = [
+    "argument",
+    "fight",
+    "altercation",
+    "terse chat",
+    "misunderstanding"
+]
 
 # Conversation topics (good or bad)
-conversation_topics = ["the past",
-                       "the future",
-                       "your career",
-                       "your future",
-                       "music",
-                       "a TV show",
-                       "a film",
-                       "politics",
-                       "religion",
-                       "their feelings",
-                       "your feelings",
-                       "their work"
-                       ]
+conversation_topics = [
+    "data science",
+    "database optimizations",
+    "refactoring",
+    "downtime",
+    "bugs",
+    "upcoming features",
+    "programming paradigms",
+    "programming languages",
+    "mobile platforms",
+    "operational systems",
+    "holy war",
+    "salary"
+]
 
 # Run the setup function once all names have been loaded
 _setup()
