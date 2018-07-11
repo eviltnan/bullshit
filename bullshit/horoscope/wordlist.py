@@ -46,9 +46,19 @@ endings = ["end", "death", "passing"]
 time_periods = ["interlude", "period", "week", "day"]
 
 # Feeling adjectives
-good_feeling_adjs = ["romantic", "emotional", "reflective", "irreverent",
-                     "subversive", "spiritual", "creative", "intellectual",
-                     "adventurous", "enlightening", "fantastic"]
+good_feeling_adjs = [
+    "stable",
+    "bugs free",
+    "up and running",
+    "safe and sound",
+    "with no problems",
+    "with no errors",
+    "normally",
+    "on INFO level",
+    "reporting no errors",
+    "all green",
+    "buzzing"
+]
 
 bad_feeling_adjs = ["bitter", "disappointing", "frustrating"]
 
