@@ -55,7 +55,7 @@ good_feeling_adjs = [
     "errors free",
     "normal",
     "on INFO level",
-    "error free reports",
+    "clean reports",
     "all green",
     "green"
 ]
@@ -122,6 +122,13 @@ avoid_list = [
     "database migrations",
     "drinking beer",
     "playing playstation",
+    "hiring managers",
+    "organic food",
+    "e-commerse startups",
+    "cryptocurrency",
+    "crawling",
+    "scrum",
+    "architectural meetings",
 ]
 
 # People you may meet
