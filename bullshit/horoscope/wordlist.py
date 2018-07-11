@@ -93,22 +93,24 @@ bad_emotive_nouns = ["bad luck", "misfortune", "déjà vu"]
 prediction_verbs = ["heralds", "marks", "foreshadows", "signifies"]
 
 # You would be well advised to avoid...
-avoid_list = ["shopping",
-              "swimming",
-              "starchy carbs",
-              "engaging strangers in conversation",
-              "making too many jokes",
-              "eating seafood",
-              "rigorous physical activity",
-              "operating heavy machinery",
-              "staying inside for extended periods of time",
-              "alienating your friends",
-              "making life-changing decisions",
-              "prolonging the inevitable",
-              "places of worship",
-              "people who are likely to annoy you",
-              "drinking heavily this weekend",
-              ]
+avoid_list = [
+    "ssh sessions",
+    "hotfixes",
+    "java developers",
+    "recruiters",
+    "interns",
+    "garbage collection",
+    "reinstalling OS",
+    "updates",
+    "team events",
+    "online dating",
+    "ssh to production",
+    "database optimizations",
+    "refactoring",
+    "database migrations",
+    "drinking beer",
+    "playing playstation",
+]
 
 # People you may meet
 familiar_people = ["your mother",
