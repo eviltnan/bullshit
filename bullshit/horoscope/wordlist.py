@@ -55,15 +55,15 @@ good_feeling_adjs = [
     "errors free",
     "normal",
     "on INFO level",
-    "reporting no errors",
+    "error free reports",
     "all green",
-    "buzzing"
+    "green"
 ]
 
 bad_feeling_adjs = [
     "down",
-    "reporting errors",
-    "with logs full of errors",
+    "full of errors",
+    "on full logs",
     "glitching",
     "buggy",
 ]
@@ -74,15 +74,27 @@ bad_emotive_adjs = ["anti-climactic"]
 
 # Intensifiers for use in front of feeling adjectives
 good_degrees = ["ridiculously", "surprisingly"]
-neutral_degrees = ["a little bit", "fairly", "pretty", "curiously"]
+neutral_degrees = ["practically", "fairly", "pretty", "curiously", "basically"]
 bad_degrees = ["worringly", "distressingly"]
 
 # Emotive nouns
-good_feeling_nouns = ["love", "reflection", "romance", "enlightenment",
-                      "joy", "desire", "creativity"]
+good_feeling_nouns = [
+    "fixing technical debt",
+    "refactoring",
+    "bugfixes",
+    "days off",
+    "conference tickets",
+    "good uptime",
+    "successful deployment"
+]
 
-good_emotive_nouns = ["healing", "catharsis", "mysticism", "transcendence",
-                      "metamorphisis"]
+good_emotive_nouns = [
+    "lulz",
+    "catharsis",
+    "mysticism",
+    "transcendence",
+    "metamorphisis"
+]
 
 bad_feeling_nouns = ["bitterness", "disappointment", "sadness", "frustration",
                      "anger", "failure", "boredom", "tension"]
@@ -94,7 +106,7 @@ prediction_verbs = ["heralds", "marks", "foreshadows", "signifies"]
 
 # You would be well advised to avoid...
 avoid_list = [
-    "ssh sessions",
+    "querying the production DB",
     "hotfixes",
     "java developers",
     "recruiters",
@@ -119,7 +131,7 @@ familiar_people = [
     "your backend dev",
     "the CEO",
     "the CTO",
-    "the scrum master",
+    "a scrum master",
 ]
 
 strange_people = [

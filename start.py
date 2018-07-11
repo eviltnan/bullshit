@@ -1,5 +1,5 @@
 from bullshit.horoscope import generate
 
-message = generate(dirty=False)
+message = generate(dirty=True)
 
 print(message)
