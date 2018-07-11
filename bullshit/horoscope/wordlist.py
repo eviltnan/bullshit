@@ -53,14 +53,20 @@ good_feeling_adjs = [
     "safe and sound",
     "with no problems",
     "with no errors",
-    "normally",
+    "normal",
     "on INFO level",
     "reporting no errors",
     "all green",
     "buzzing"
 ]
 
-bad_feeling_adjs = ["bitter", "disappointing", "frustrating"]
+bad_feeling_adjs = [
+    "down",
+    "reporting errors",
+    "with logs full of errors",
+    "glitching",
+    "buggy",
+]
 
 good_emotive_adjs = ["cathartic", "healing", "mystical"]
 
