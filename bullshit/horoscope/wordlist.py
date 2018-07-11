@@ -156,28 +156,29 @@ strange_people = [
 ]
 
 # Locations for various events
-locations = [("at", "the beach"),
-             ("in", "a shopping centre"),
-             ("in", "the bush"),
-             ("in", "a carpark"),
-             ("at", "your house"),
-             ("in", "your street"),
-             ("near", "where you grew up"),
-             ("in", "a club"),
-             ("in", "a supermarket"),
-             ("at", "a place of learning"),
-             ("by", "the side of the road"),
-             ("in", "the centre of the city"),
-             ("in", "the heart of suburbia"),
-             ("on top of", "a building"),
-             ("in", "a park"),
-             ("in", "a restaurant"),
-             ("on", "a bus"),
-             ("on", "a train"),
-             ("on", "a ferry"),
-             ("in", "a waiting room"),
-             ("at", "a library")
-             ]
+locations = [
+    ("in", "the office"),
+    ("in", "your data center"),
+    ("in", "the kitchen"),
+    ("in", "a coffee lounge"),
+    ("at", "a hackaton"),
+    ("in", "your dev room"),
+    ("while", "the standup meeting"),
+    ("while", "a retrospective meeting"),
+    ("in", "the grooming meeting"),
+    ("on", "a team event"),
+    ("at", "friday beers"),
+    ("on", "a conference"),
+    ("on", "a meetup"),
+    ("while", "home office"),
+    ("while", "pair programming"),
+    ("in", "a playroom"),
+    ("in", "a meeting room"),
+    ("at", "yoga courses"),
+    ("at", "a smoothie stand"),
+    ("at", "a coffee machine"),
+    ("at", "a coffee shop")
+]
 
 # Types of discussions
 neutral_discussions = ["discussion",
