@@ -113,11 +113,14 @@ avoid_list = [
 ]
 
 # People you may meet
-familiar_people = ["your mother",
-                   "your father",
-                   "your closest friend",
-                   "a family member"
-                   ]
+familiar_people = [
+    "your teamlead",
+    "your frontend dev",
+    "your backend dev",
+    "the CEO",
+    "the CTO",
+    "the scrum master",
+]
 
 strange_people = ["a priest or minister",
                   "a doctor",
