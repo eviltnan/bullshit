@@ -1,3 +1,4 @@
 flask
 tweepy
 python-dotenv
+schedule
