@@ -8,7 +8,6 @@ Horoscope Generator | Statistically Insignificant Wisdom
 html {
 	min-width: 100%;
 	min-height: 100%;
-	background-image: url({{ url_for("static", filename="horoscope_bg.jpg") }});
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -28,6 +27,9 @@ body {
 </style>
 </head>
 <body>
-<h1>{{ horoscope }}</h1>
+
+<h1>The random numbers generator says...</h1>
+
+<h2>{{ horoscope }}</h2>
 </body>
 </html>
