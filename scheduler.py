@@ -1,13 +1,11 @@
 import schedule
 import time
 
+from tweet import tweet
 
-def job():
-    print("I'm working...")
+schedule.every().day.at("08:00").do(tweet)
 
-
-schedule.every().day.at("11:23").do(job)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+if __name__ == '__main__':
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
