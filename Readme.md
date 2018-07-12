@@ -1,8 +1,7 @@
-Bullshit: Horoscope Generator
+Bullshit: Dev Horoscope Generator
 =============================
 
-Generate random horoscopes!
+Wondering why this shit is not working?
+Ask for almighty random numbers generator for an answer.
 
-Adjust the silliness by adding words to the word list.
-
-Zen Koan generator coming soon.
+Bases on a bullshit generator by @michaelsproul
