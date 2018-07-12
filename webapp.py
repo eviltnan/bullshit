@@ -1,5 +1,8 @@
-from bullshit import horoscope
+import os
+
 from flask import Flask, render_template
+
+from bullshit import horoscope
 
 app = Flask(__name__)
 
@@ -10,4 +13,4 @@ def get_horoscope():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host="0.0.0.0")
+    app.run(debug=False, host="0.0.0.0", port=os.environ.get("PORT", 80))
