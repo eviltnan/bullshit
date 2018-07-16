@@ -11,5 +11,4 @@ python_version = "3.5"
 [packages]
 tweepy = "*"
 python-dotenv = "*"
-schedule = "*"
 Flask = "*"

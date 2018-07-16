@@ -1,2 +1,2 @@
-schedule: python scheduler.py
+tweet: python tweet.py
 web: python webapp.py
